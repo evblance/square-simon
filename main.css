@@ -63,7 +63,8 @@ body {
 }
 
 .inset {
-  position: relative;
+  //position: relative;
+  position: absolute;
   width: 234px;
   height: 234px;
   top: 50%;
