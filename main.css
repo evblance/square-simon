@@ -69,8 +69,8 @@ body {
   height: 234px;
   top: 50%;
   left: 50%;
-  margin-left: -117px;
-  margin-top: -360px;
+  //margin-left: -117px;
+  //margin-top: -360px;
   background-color: #DDD;
   border: 10px solid #DDD;
   box-shadow: 0 0 5px 1px;
