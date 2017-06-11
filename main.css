@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #555;
+  background-color: #333;
 }
 
 .game-button {
@@ -15,42 +15,42 @@ body {
   position: relative;
   display: inline-block;
   margin: 0 auto;
-  border: 15px solid #DDD;
+  border: 15px solid #ddd;
   border-radius: 10%;
-  box-shadow: 0 0 5px 3px #333 inset;
+  box-shadow: inset 0 0 7px 3px rgba(30,30,30,0.3);
 }
 
 .button-lit {
-  border: 5px solid rgba(255, 255, 255, 0.9);
+  border: 20px solid #ddd;
 }
 
 .button-green {
-  background-color: #008A17;
+  background-color: #008a17;
 }
 
 .button-red {
-  background-color: #8C0000;
+  background-color: #8c0000;
   float: right;
 }
 
 .button-yellow {
-  background-color: #8A7003;
+  background-color: #8a7003;
   float: right;
 }
 
 .button-blue {
-  background-color: #071A8A;
+  background-color: #071a8a;
 }
 
 .board {
   position: relative;
-  background-color: #DDD;
+  background-color: #ddd;
   width: 468px;
   height: 468px;
   margin: 0 auto;
   margin-top: 20vh;
-  box-shadow: 1px 1px 8px 4px;
-  border: 10px solid #DDD;
+  box-shadow: 1px 1px 8px 3px rgba(20,20,20,0.3);
+  border: 10px solid #ddd;
   border-radius: 5px;
   display: -webkit-flex;
   display: flex;
@@ -74,9 +74,9 @@ body {
   //left: 50%;
   //margin-left: -117px;
   //margin-top: -360px;
-  background-color: #DDD;
-  border: 10px solid #DDD;
-  box-shadow: 0 0 5px 1px;
+  background-color: #ddd;
+  border: 10px solid #ddd;
+  box-shadow: 0 0 7px 1px rgba(20,20,20,0.8);
   border-radius: 50%;
   display: -webkit-flex;
   display: flex;
@@ -88,7 +88,8 @@ body {
   align-items: center;
 }
 
-.control-labels, .controls {
+.control-labels,
+.controls {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -99,7 +100,9 @@ body {
   align-items: space-between;
   margin-top: 75px;
 }
-.control-labels .label-button, .controls .label-button, .controls .ctrl-button {
+.control-labels .label-button,
+.controls .label-button,
+.controls .ctrl-button {
   font-family: "Open Sans Condensed", serif;
   font-size: 15px;
   margin-left: 10.71429px;
@@ -108,7 +111,7 @@ body {
 }
 
 .ctrl-label-active {
-  color: #E85043;
+  color: #e85043;
 }
 
 .controls {
@@ -121,7 +124,7 @@ body {
   border-radius: 50%;
   margin-left: 15px;
   margin-right: 15px;
-  border: 2px solid #DDD;
+  border: 2px solid #ddd;
   box-shadow: 1px 3px 7px 2px;
   transition: all 0.2s;
   -webkit-box-sizing: content-box;
@@ -129,13 +132,13 @@ body {
   box-sizing: content-box;
 }
 .controls .ctrl-button.start-button {
-  background-color: #FF5951;
+  background-color: #ff5951;
 }
 .controls .ctrl-button.power-button {
   background-color: #333;
 }
 .controls .ctrl-button.strict-mode-button {
-  background-color: #E82C0C;
+  background-color: #e82c0c;
 }
 
 .simon-branding {
@@ -156,8 +159,8 @@ body {
   margin-left: -38px;
   width: 76px;
   height: 50px;
-  background-color: #3D3D3D;
-  border: 2px solid black;
+  background-color: #3d3d3d;
+  border: 2px solid #000;
   border-radius: 5px;
 }
 
@@ -168,12 +171,12 @@ body {
   line-height: 50px;
   font-family: "Press Start 2P";
   font-size: 32px;
-  color: #BDBCBC;
+  color: #bdbcbc;
   text-shadow: 0 0 8px;
 }
 
 .lcd-strict {
-  color: #E82C0C;
+  color: #e82c0c;
 }
 
 .ctrl-button-translated {
