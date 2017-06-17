@@ -26,3 +26,6 @@ Pressing the 'HARD' button enables 'hard mode'. The LCD display will show the ga
 
 ### Gameplay
 Wait for the computer to play each sequence and then replicate it by clicking on the corresponding coloured squares.
+
+## Note
+This is one of the projects in the FreeCodeCamp Front-End Dev Curriculum. Eyes off the code until you have submitted your own version, if applicable.
