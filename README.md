@@ -21,7 +21,7 @@ Turn on/off the game by pressing 'PWR' button.
 ### Starting a new game
 Press the 'START' button to begin or reset a currently running game.
 
-## Hard mode
+### Hard mode
 Pressing the 'HARD' button . The LCD display will show the game progress in red when hard mode is enabled. Under this mode, the game resets after a single mistake. This mode can be enabled/disabled at any time during the game.
 
 ### Gameplay
