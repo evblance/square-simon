@@ -22,7 +22,7 @@ Turn on/off the game by pressing 'PWR' button.
 Press the 'START' button to begin or reset a currently running game.
 
 ### Hard mode
-Pressing the 'HARD' button . The LCD display will show the game progress in red when hard mode is enabled. Under this mode, the game resets after a single mistake. This mode can be enabled/disabled at any time during the game.
+Pressing the 'HARD' button enables 'hard mode'. The LCD display will show the game progress in red when enabled, and the game will reset after a single mistake. This mode can be toggled at any time during the game.
 
 ### Gameplay
 Wait for the computer to play each sequence and then replicate it by clicking on the corresponding coloured squares.
